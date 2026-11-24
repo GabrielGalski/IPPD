@@ -1,0 +1,45 @@
+# Resultados de referência — logs_exemplo.csv
+
+Base gerada com: python3 gerar_logs.py --registros 100 --saida logs_exemplo.csv --semente 42 --ips 12
+
+## Q1 — Total de acessos
+100
+
+## Q2 — Acessos por IP (ordem lexicográfica)
+10.0.0.0,9
+10.0.0.1,12
+10.0.0.10,8
+10.0.0.11,7
+10.0.0.2,7
+10.0.0.3,10
+10.0.0.4,9
+10.0.0.5,5
+10.0.0.6,15
+10.0.0.7,6
+10.0.0.8,8
+10.0.0.9,4
+
+## Q3 — Acessos por status
+200,74
+301,7
+403,5
+404,10
+500,4
+
+## Q4 — Bytes por recurso
+/ajuda,21678
+/busca,46644
+/carrinho,22099
+/contato,14534
+/index.html,214158
+/login,83196
+/produtos,60633
+
+## Q5 — Top 10 recursos (quantidade decrescente, empate por nome)
+/index.html,35
+/login,19
+/produtos,19
+/busca,8
+/carrinho,8
+/contato,6
+/ajuda,5

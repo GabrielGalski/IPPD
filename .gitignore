@@ -1,0 +1,14 @@
+# Bases geradas (grandes, nunca versionar)
+dados/
+
+# Compilacao Java/Hadoop
+hadoop/build/
+hadoop/logs-mr.jar
+
+# Logs brutos e artefatos temporarios
+resultados/logs/
+resultados/aquecimento.csv
+__pycache__/
+*.pyc
+*.tgz
+*.zip
